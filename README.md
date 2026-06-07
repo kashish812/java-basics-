@@ -1,2 +1,2 @@
-# java-basics-
+# java-basics
 Java practise program
