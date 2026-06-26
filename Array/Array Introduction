@@ -1,0 +1,75 @@
+/*
+ * ============================
+ *        ARRAY INTRODUCTION
+ * ============================
+ *
+ * Definition:
+ * An array is a data structure used to store multiple values
+ * of the same data type in a single variable. It makes data
+ * storage and processing easier.
+ *
+ * Why do we use an Array?
+ * 1. To store multiple values in a single variable.
+ * 2. Saves memory and reduces code.
+ * 3. Easy to access elements using an index.
+ * 4. Easy to use with loops.
+ *
+ * Why does array indexing start from 0?
+ * Array indexing starts from 0 because the first element is at
+ * the starting position (offset 0) of the array.
+ *
+ * Ways to create an Array:
+ *
+ * 1. Declaration
+ *    int[] marks;
+ *
+ * 2. Declaration + Memory Allocation
+ *    int[] marks = new int[5];
+ *
+ * 3. Declaration + Initialization
+ *    int[] arr = {10, 20, 30, 40, 50};
+ */
+
+public class ArrayIntroduction {
+
+    public static void main(String[] args) {
+
+        // =========================
+        // Method 1 : Declaration
+        // =========================
+        int[] marks1;
+
+        // Memory allocate karni padegi tabhi use kar sakte hain
+        marks1 = new int[5];
+
+        marks1[0] = 10;
+        marks1[1] = 20;
+        marks1[2] = 30;
+        marks1[3] = 40;
+        marks1[4] = 50;
+
+        System.out.println("Method 1 Output: " + marks1[4]);
+
+
+        // =========================
+        // Method 2 : Declaration + Memory Allocation
+        // =========================
+        int[] marks2 = new int[5];
+
+        marks2[0] = 10;
+        marks2[1] = 20;
+        marks2[2] = 30;
+        marks2[3] = 40;
+        marks2[4] = 50;
+
+        System.out.println("Method 2 Output: " + marks2[4]);
+
+
+        // =========================
+        // Method 3 : Declaration + Initialization
+        // =========================
+        int[] marks3 = {10, 20, 30, 40, 50};
+
+        System.out.println("Method 3 Output: " + marks3[4]);
+    }
+}
