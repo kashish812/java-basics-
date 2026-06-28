@@ -1,0 +1,21 @@
+/*
+ * Array Length:
+ * arr.length is used to find the number of elements in an array.
+ */
+public class ArrayLength {
+
+    public static void main(String[] args) {
+
+        int[] arr = {10, 20, 30, 40, 50};
+
+        System.out.println("Array length is: " + arr.length);
+
+        // Traversal using length
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
+// Output
+Array length is: 5
+10 20 30 40 50
