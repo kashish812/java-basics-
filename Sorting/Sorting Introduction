@@ -1,0 +1,82 @@
+# 01 - What is Sorting?
+
+## Definition
+
+**Sorting is the process of arranging data or elements in a specific order, such as ascending or descending order.**
+
+---
+
+## Hindi Meaning
+
+Sorting ka matlab hai **elements ko ek particular order me arrange karna**.
+
+* **Ascending Order:** Small to Large
+* **Descending Order:** Large to Small
+
+---
+
+## Example
+
+### Before Sorting
+
+
+5 2 8 1 3
+```
+
+### Ascending Order
+
+
+1 2 3 5 8
+```
+
+### Descending Order
+
+8 5 3 2 1
+```
+
+---
+
+## Why do we use Sorting?
+
+* To organize data.
+* To make searching faster.
+* To process data efficiently.
+* It is widely used in real-world applications and coding interviews.
+
+---
+
+## Types of Sorting Algorithms
+
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+4. Merge Sort
+5. Quick Sort
+6. Heap Sort
+7. Counting Sort
+8. Radix Sort
+
+---
+
+## Common Applications of Sorting
+
+* Searching
+* Data Analysis
+* Database Management
+* E-commerce Product Listing
+* Student Result Management
+
+---
+
+## Key Points
+
+* Sorting arranges elements in a specific order.
+* It can be **Ascending** or **Descending**.
+* Different sorting algorithms have different time complexities.
+* Sorting is one of the most important topics in Data Structures and Algorithms (DSA).
+
+---
+
+## Interview Definition
+
+**Sorting is the process of arranging elements in a particular order. The order can be ascending (small to large) or descending (large to small).**
